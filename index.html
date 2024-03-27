@@ -1,0 +1,96 @@
+<html>
+
+    <head>
+    <title>The Ultimate GAMING Quiz</title>
+    <link rel="icon" type="image" href="./image/logo1.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    </head> 
+    <body>
+        <video id="backgroundVideo" muted loop >
+            <source src="image/background.mp4" type="video/mp4">
+        </video>
+        <div id="wrapper" >
+            <audio controls loop hidden id="audioPlayer1">
+            <source src="./audio/soundtrack2.mp3" type="audio/mp3" >
+            </audio>
+            <div id="form-box">
+                <div class="sp-container">
+                    <div class="sp-content">
+                      <div class="sp-globe"></div>
+                        <h2 class="frame-1">Are you ready </h2>
+                        <h2 class="frame-2">To test  your gaming knowledge?</h2>
+                        <h2 class="frame-3">In this ULTIMATE GAMING</h2>
+                        <h2 class="frame-4">Quiz !!</h2>
+                        
+                        <a href="#scroll" id="startButton" class="hidden start" onclick="show1()">Start</a>
+
+                    </div>
+                </div>
+                    
+            </div>    
+        </div>
+        <!--QUIZ SECTION-->        
+        <div class="quiz" id="scroll" hidden>
+            <form class="back1"  >
+                <audio controls loop hidden id="audioPlayer">
+            <source src="./audio/soundtrack.mp3" type="audio/mp3" >
+            </audio>
+                <div id="info"> 
+                    <div id="score">Score:0</div>
+                    <div id="ques-left">Question:1/15</div>    
+                    <div id="timer">Time Left: 30 seconds</div>            
+                </div>
+
+                <div class="question">
+                <h1 id="ques">Question</h1>
+                <div class="solution">
+                    <img id="photo" src="" >
+                    <div id="para" hidden></div>
+                </div>
+                </div>
+                <div class="choice" >
+                    <div class="options"><input type="radio" name="options"  id="opt0" onclick="show('para')">
+                        <div class="letter" id="A" > A </div><label for="opt0" id="lb0">Option1</label>
+                    </div>                        
+                    <div class="options"><input type="radio" name="options" value="1" id="opt1" onclick="show('para')">
+                        <div class="letter" id="B" >B </div><label for="opt1" id="lb1">Option2</label>
+                    </div>
+                    <div class="options"><input type="radio" name="options" value="2" id="opt2" onclick="show('para')">
+                        <div class="letter" id="C" >C </div><label for="opt2" id="lb2">Option3</label>
+                    </div>
+                    <div class="options"><input type="radio" name="options" value="3" id="opt3" onclick="show('para')">
+                        <div class="letter" id="D" >D </div><label for="opt3" id="lb3" id="scroll">Option4</label>
+                    </div>   
+                </div>
+                <p id="slct"></p>
+                <div class="ans-btn">
+                    <a class="submit-answer next" id="scroll2"  disabled>Next -></a>
+                    <a class="submit-answer view-results" id="rslt" hidden>View Results</a>
+                </div>  
+            </form>    
+        </div>
+
+        <!--RESULT SECTION-->
+        <div class="final-result" id="hide2" hidden>
+            <div class="back" id="results">
+                <h1>The Quiz is Over</h1>
+                <div id="solved-ques-no">You Solved 10 questions of HTML</div><br>
+                <div id="right-wrong"></div>
+                <div id="display-final-score"></div>
+                <div id="remark" class="remark">Remark: Satisfactory, Keep trying.</div>
+                <a type="button" id="restart" onClick="window.location.reload()">Restart Quiz</a>        
+            </div>
+        </div>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="linking.js"></script>
+        <script src="main.js"></script>
+
+    </body>
+
+</html>
