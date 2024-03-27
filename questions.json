@@ -1,0 +1,143 @@
+[
+    {
+        "question": "Who is the Most Famous Video Game Character of all Time?",
+        "image": "image/iconic-video-game-characters.jpg",
+        "correction":"Mario is considered the most famous video game character of all time due to his widespread recognition and popularity. He has been the face of Nintendo for decades and has appeared in numerous successful games, such as the Super Mario series. Mario's iconic design, catchy theme music, and memorable catchphrases have made him a beloved character among gamers of all ages. His games have sold millions of copies worldwide, and he has become a cultural icon, appearing in movies, TV shows, and even having his own theme park. Mario's enduring popularity and impact on the gaming industry solidify his position as the most famous video game character.",
+        "options": ["Solid Snake", "Link", "Mario", "Dinkey Kong"],
+        "answer": "Mario"
+    },
+    
+    {
+        "question": "In what Game Series are Golden Rings used as Life-energy and Money?",
+        "image": "image/sonic hedog.gif",
+        "correction": "The Sonic the Hedgehog series is known for using golden rings as life-energy and money. Collecting these rings is a central gameplay mechanic throughout the series, providing protection against damage and serving as a currency to purchase items.",
+        "options": ["Super Mario Bros", "Half-Life", "Soul Reaver", "Sonic the Hedgehog"],
+        "answer": "Sonic the Hedgehog"
+    },
+    {
+        "question": "Who is The Elven Sword-Wielding, Green Clothed Hero in the Legend of Zelda series ?",
+        "image": "image/zelda series.jpeg",
+        "correction": "Link is the correct answer because he is the main protagonist in the Legend of Zelda series. He is known for wielding a sword and wearing a green tunic. Throughout the games, Link embarks on various quests to rescue Princess Zelda and defeat the evil Ganon. His iconic appearance and heroic deeds have made him a beloved character in the gaming community.",
+        "options": ["Kain", "Luigi", "Link", "Ganon"],
+        "answer": "Link"
+    },
+    {
+        "question": "In what Series were Dracula and The Grim Reaper recurring Villians ?",
+        "image": "image/dracula and the grim reaper.PNG",
+        "correction": "Dracula and The Grim Reaper were recurring villains in the Castlevania series. Castlevania is a popular video game franchise that revolves around the Belmont family's quest to defeat Dracula and other supernatural creatures. The series is known for its gothic atmosphere and challenging gameplay, making it a beloved choice for fans of action-adventure games.",
+        "options": ["Castlevania", "Halo", "Soul Reaver", "Legend of Zelda"],
+        "answer": "Castlevania"
+    },
+    {
+        "question": "NES was Short for:",
+        "image": "image/question mark.jpg",
+        "correction": "The correct answer is Nintendo Entertainment System. The NES was a popular video game console released by Nintendo in the 1980s. It revolutionized the gaming industry and introduced iconic games such as Super Mario Bros. and The Legend of Zelda. The abbreviation NES stands for Nintendo Entertainment System.",
+        "options": ["Never Ending Simulation", "New Enterprise System", "Not Ever Still", "Nintendo Entertainment System"],
+        "answer": "Nintendo Entertainment System"
+    },
+    {
+        "question": "What is the name of this character ?",
+        "image": "image/guess.png",
+        "correction": "La fonction JavaScript utilisée pour imprimer du texte dans la console du navigateur est 'console.log()'. Elle permet aux développeurs de déboguer leurs scripts JavaScript en affichant des messages dans la console du navigateur.",
+        "options": ["Marvin the Martian", "Bomberman", "Ben folds", "Taz"],
+        "answer": "Bomberman"
+    },
+    {
+        "question": "Which of these is not a Rockstar developed game ?",
+        "image": "image/rockstar.jpg",
+        "correction": "Assassin's Creed is not a Rockstar developed game. Rockstar is the developer behind popular games such as Grand Theft Auto 5, Bully, and Red Dead Redemption 2. Assassin's Creed is developed by Ubisoft.",
+        "options": ["Grand Theft Auto 5", "Assassin's Creed", "Bully", "Red Dead Redemption 2"],
+        "answer": "Assassin's Creed"
+    },
+    {
+        "question": "PS was created and owned by ________ Interactive Entertainment",
+        "image": "image/ps.png",
+        "correction": "PS refers to PlayStation, a popular gaming console. Sony Interactive Entertainment is the company that created and owns PlayStation. Therefore, the correct answer is Sony.",
+        "options": ["LG", "Toshiba", "Nintendo", "Sony"],
+        "answer": "Sony"
+    },
+    {
+        "question": "When was Ps 1 released?",
+        "image": "image/ps2.png",
+        "correction": "Ps 1 was released in the year 2000.",
+        "options": ["1998", "1999", "2000", "2001"],
+        "answer": "2000"
+    },
+    {
+        "question": "Kratos is the main character of which game ?",
+        "image": "image/kratos.jpg",
+        "correction": "Kratos is the main character of the game God of War. This action-adventure game, developed by Santa Monica Studio, follows the story of Kratos, a Spartan warrior seeking revenge on the Greek gods. Known for its intense combat and epic storyline, God of War has gained critical acclaim and a large fanbase. Kratos' journey through Greek mythology has become iconic in the gaming industry.",
+        "options": ["God Hand", "Assassin's Creed", "Prince of Persia", "God of War"],
+        "answer": "God of War"
+    },
+    {
+        "question": "When was the online game -League of Legends- released?",
+        "image": "image/lol.jpg",
+        "correction": "The multiplayer online game -League of Legends- was released Oct. 27, 2009.",
+        "options": ["2007", "2008", "2009", "2010"],
+        "answer": "2009"
+    },
+    {
+        "question": "Which video game company developed the game -League of Legends- ?",
+        "image": "image/lol2.jpg",
+        "correction": "Riot Games developed and produces the game -League of Legends-. Riot Games was founded by Marc Merrill and Brandon Beck in 2006. Today, the company is headquartered in West Los Angeles, California, and employs more than a thousand people worldwide.",
+        "options": ["Riot", "Activision", "Capcom", "Microsoft"],
+        "answer": "Riot"
+    },
+    {
+        "question": "What is the name of the human capital city in World of Warcraft ?",
+        "image": "image/wow human.jpg",
+        "correction": "Stormwind City is the correct answer because it is the capital city of the human race in the World of Warcraft game. It is located in the kingdom of Stormwind and serves as the central hub for players to gather, trade, and access various services. The city is known for its grand architecture, bustling streets, and important NPCs (non-player characters) that provide quests and information to players.",
+        "options": ["Silvermoon City", "Elwynn City", "Ironforge", "Stormwind City"],
+        "answer": "Stormwind City"
+    },
+    {
+        "question": "What is the name of the fictional continent where most of the events of World of Warcraft take place?",
+        "image": "image/wow.jpg",
+        "correction": "Stormwind City is the correct answer because it is the capital city of the human race in the World of Warcraft game. It is located in the kingdom of Stormwind and serves as the central hub for players to gather, trade, and access various services. The city is known for its grand architecture, bustling streets, and important NPCs (non-player characters) that provide quests and information to players.",
+        "options": ["Kalimdor", "Draenor", "Azeroth", "Pandaria"],
+        "answer": "Azeroth"
+    },
+    {
+        "question": "What type of game is Pac Man ?",
+        "image": "image/giphy1.gif",
+        "correction": "Pac Man is a classic arcade game that was released in 1980. It is a maze chase game where players control a character called Pac Man, who must navigate through a maze while avoiding ghosts and eating dots. The objective of the game is to clear each level by eating all the dots and fruits, while avoiding being caught by the ghosts. The game became extremely popular and is considered one of the most iconic arcade games of all time.",
+        "options": ["Arcade", "Racing", "Action", "Adventure"],
+        "answer": "Arcade"
+    },
+    {
+        "question": "When was Pac Man designed ?",
+        "image": "image/giphy2.gif",
+        "correction": "The game was released as PUCKMAN in Japan in 1980.",
+        "options": ["1977", "1978", "1979", "1980"],
+        "answer": "1980"
+    },
+    {
+        "question": "When was VALORANT released ?",
+        "image": "image/valoo.jpg",
+        "correction": "Valorant is a free-to-play first-person tactical hero shooter developed and published by Riot Games, for Windows. Teased under the codename Project A in October 2019, the game began a closed beta period with limited access on April 7, 2020, followed by a release on June 2, 2020.",
+        "options": ["2017", "2018", "2019", "2020"],
+        "answer": "2020"
+    },
+    {
+        "question": "What was Valorant's initial tentative title during development ?",
+        "image": "image/valo2.jpg",
+        "correction": "Valorant was initially known by the codename -Project A- before its official title was revealed.",
+        "options": ["Overwatch 2", "Project A", "Tactical Shooter", "Counter-Strike: Valorant"],
+        "answer": "Project A"
+    },
+    {
+        "question": "What company owns the Assassin's Creed franchise?",
+        "image": "image/asc.jpg",
+        "correction": "Ubisoft is the correct answer because it is stated as the owner of the game. The other options, Razher Inc, Jakket Inc, and Knights Inc, are not mentioned as the owners of the game, making them incorrect choices.",
+        "options": ["Razher Inc", "Ubisoft", "Jakket Inc", "Knights Inc"],
+        "answer": "Ubisoft"
+    },
+    {
+        "question": "-The Stick of Truth- was a 2014 video game based on what Comedy Central TV show ?",
+        "image": "image/stick.jpg",
+        "correction": "-The Stick of Truth- was a 2014 video game based on the Comedy Central TV show -South Park- . The game was developed by Obsidian Entertainment in collaboration with the creators of the show, Trey Parker and Matt Stone. It featured the iconic characters and humor from the TV show, allowing players to explore the town of South Park and engage in various comedic and often outrageous adventures. The game received positive reviews for its faithful adaptation of the show's humor and art style, making it a popular choice among fans of -South Park- .",
+        "options": ["Freak Show", "Drawn Together", "The Daily Show", "South Park"],
+        "answer": "South Park"
+    }
+]
